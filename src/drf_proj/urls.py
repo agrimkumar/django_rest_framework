@@ -6,6 +6,7 @@ from drf_app import views
 router = routers.DefaultRouter()
 router.register('users', views.UserViewSet)
 router.register('groups', views.GroupViewSet)
+router.register('snippets', views.SnippetViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
